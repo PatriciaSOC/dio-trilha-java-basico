@@ -1,25 +1,13 @@
 public class Operadores {
     public static void main(String[] args) {
-        String concatenacao = "?";
+       int numero = 5;
+       
+       numero = - numero;
 
-        concatenacao = 1 + 1 + 1 + "1";
+       System.out.println(numero);
 
-        System.out.print(concatenacao);
+       numero = numero * -1;
 
-        concatenacao = 1+"1"+1+1;
-        
-        System.out.print(concatenacao);
-
-        concatenacao = 1+"1"+1+"1";
-        
-        System.out.print(concatenacao);
-
-        concatenacao = "1"+1+1+1;
-
-        System.out.print(concatenacao);
-
-        concatenacao = "1"+(1+1+1);
-        
-        System.out.print(concatenacao);
+       System.out.println(numero);
     }
 }
