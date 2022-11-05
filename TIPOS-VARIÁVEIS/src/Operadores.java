@@ -1,13 +1,13 @@
 public class Operadores {
     public static void main(String[] args) {
-        int a, b;
+       boolean condicao1 = true;
 
-        a = 6;
-        b = 6;
+       boolean condicao2 = false;
 
-        String resultado = a==b ? "verdadeiro" : "falso";
-       
+       if(condicao1 && condicao2){
+        System.out.println("as duas condições são verdadeiras");
+       }
 
-        System.out.println(resultado);
+       System.out.print("fim");
     }
 }
